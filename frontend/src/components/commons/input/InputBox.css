@@ -1,0 +1,65 @@
+.profile-input{
+    margin-bottom: 4rem;
+    width: 45%;
+}
+
+.profile-input label{
+    color: #a4a6b3;
+}
+
+.profile-input input,
+.profile-input select{
+    padding: 1rem;
+    outline: none;
+    border: 1px solid #dcdcdc;
+    border-radius: 0.5rem;
+}
+
+.profile-input input:focus-visible{
+    border:1px solid #4a90e2;
+}
+
+.profile-input input::placeholder{
+    color: #d9d7d7;
+}
+
+.gender-input{
+    outline: none;
+    border: 1px solid #dcdcdc;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.gender-input div{
+    padding: 0.5rem 2rem;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.gender-input .active{
+    background-color: #4a90e2;
+    border-radius: 0.5rem;
+}
+
+.gender-input div:first-child{
+    margin-right: 0.75rem;
+    border-right: 1px solid gray;
+}
+
+.gender-input div:last-child{
+    margin-left: 0.5rem;
+}
+
+.profile-input .state-list{
+    font-size: 1.3rem;
+    outline: none;
+    border: 1px solid #dcdcdc;
+    border-radius: 0.5rem;
+}
+
+.profile-input .state-list:focus{
+    outline: none;
+    border:1px solid #4a90e2;
+    box-shadow: none;
+}

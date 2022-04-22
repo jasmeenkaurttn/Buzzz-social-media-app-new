@@ -1,0 +1,63 @@
+
+.circularButton{
+    font-size: 1.5rem;
+    padding: 1rem 4rem;
+    border-radius: 5rem;
+}
+
+.circularButton:hover{
+    background-color: transparent;
+}
+
+.pink{
+    border-color: #FF337A;
+    color: #FF337A;
+}
+
+.pink:hover{
+    background-color: #FF337A;
+    color: #fff;
+    border-color: #FF337A;
+}
+
+.purple{
+    background-color: #9816f3;
+    color: #fff;
+    border-color: #9816f3;
+}
+
+.purple:disabled{
+    border-color: #9816f3;
+    color: gray;
+}
+
+.purple:hover{
+    background-color: white;
+    border-color: #9816f3;
+    color: #9816f3;
+}
+
+.button-image{
+    width: 3rem;
+}
+
+.button-text{
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+.blue{
+    border-color: #4a90e2;
+    color: #4a90e2;
+}
+
+.blue-filled{
+    background-color: #4a90e2;
+    color: #fff;
+    margin-right: 2rem;
+}
+
+.btn-padding{
+    padding: 0.75rem 2rem;
+    font-size: 1.3rem;
+}

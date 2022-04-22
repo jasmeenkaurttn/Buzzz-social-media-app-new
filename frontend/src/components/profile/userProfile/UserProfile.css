@@ -1,0 +1,27 @@
+.user-profile{
+    background-color: #e4e6eb;
+    padding: 5rem 10rem 5rem;
+    border-radius: 10px;
+}
+
+.user-profile .user-profile-details{
+    margin-right: 3rem;
+    width: 80%;
+    background-color: #fff;
+    height: fit-content;
+    border-radius: 10px;
+}
+
+.user-profile .user-profile-details h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-top: 7rem;
+}
+
+.user-profile .friends{
+    width: 20%;
+}
+
+.user-profile .user-profile-details h4{
+    margin: 2rem 0 3rem;
+}

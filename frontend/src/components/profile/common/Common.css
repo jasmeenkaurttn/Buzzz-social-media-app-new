@@ -1,0 +1,37 @@
+.common-cover .cover-photo{
+    width: 100%;
+    height: 170px;
+    overflow: hidden;
+}
+
+.common-cover .cover-photo img{
+    width: 100%;
+    height: inherit;
+    border-radius: 10px 10px 0 0;
+}
+
+.common-cover .profile-photo{
+    padding-left: 3rem;
+    position: absolute;
+    bottom: -5rem;
+}
+
+.common-cover .profile-photo>img{
+    border-radius: 5%;
+    width: 10rem;
+    height: 10rem;
+}
+
+.common-cover .profile-photo .add-photo{
+    padding: 1rem;
+    background-color: #e4e6eb;
+    border-radius: 50%;
+    position: absolute;
+    top: 8rem;
+    left: 11rem;
+    border: 1px solid #4a90e2;
+}
+
+.common-cover .profile-photo .add-photo img{
+    width: 2rem;
+}

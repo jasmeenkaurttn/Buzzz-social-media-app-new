@@ -1,0 +1,44 @@
+.friends-list{
+    padding: 1.5rem 1rem 0 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    height: fit-content;
+    max-height: 45rem;
+}
+
+.friends-list .friends-list-header{
+    height: 3rem;
+}
+
+.friends-list h2{
+    font-weight: 600;
+}
+
+.friends-list .user-image{
+    border-radius: 50%;
+    width: 3.5rem;
+    margin-right: 0.5rem;
+}
+
+.friends-list .suggestions-list{
+    max-height: 39rem;
+    overflow-y: auto;
+}
+
+.friends-list .suggestions-list .suggestions-item{
+    height: 3.5rem;
+}
+
+.friends-list .suggestions-list .suggestions-item h4{
+    width: 11rem;
+}
+
+.friends-list .suggestions-list .suggestions-item a{
+    color: #2699fb;
+}
+
+.search-image{
+    width: 1.8rem;
+    height: 2.4rem;
+    cursor: pointer;
+}

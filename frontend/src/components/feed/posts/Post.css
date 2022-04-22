@@ -1,0 +1,89 @@
+.post-wrapper {
+  position: absolute;
+  width: 43%;
+  height: auto;
+  left:28%;
+  top: 300px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+.post-wrapper h5{
+  font-size: 15px;
+}
+.post-wrapper .sort {
+  display: flex;
+  margin-bottom: 10px;
+}
+.post-wrapper select {
+  border: none;
+  font-size: 15px;
+}
+
+.post-wrapper .card-post{
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 2px;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  padding: 2px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+.post-wrapper .card-post .card-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.post-wrapper .card-post .card-header .card-profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  margin-right: 15px;
+}
+.post-wrapper .card-post .card-header .profile-name {
+  display: flex;
+  flex-direction: column;
+}
+.post-wrapper .card-post .card-header .profile-name .date-time{
+  color: gray !important;
+}
+.card-desc{
+  margin-top: 5px;
+  font-size: 15px;
+}
+.post-wrapper .card-post .post-img{
+  width: 100%;
+  height: 350px;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+.post-wrapper .card-post-bottom .card-post-bottom-left .postLike {
+  height: 3rem;
+  margin-top: 6px;
+}
+.post-wrapper .card-post .comment-wrapper{
+  display: flex;
+  flex-direction: row;
+}
+.post-wrapper .card-post .comment-wrapper img {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.post-wrapper .card-post .comment-wrapper input {
+  background-color: lightgray;
+  width: 570px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 30px;
+  border: 0;
+  padding-left: 20px;
+  font-size: 20px;
+}

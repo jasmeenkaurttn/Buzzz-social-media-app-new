@@ -1,0 +1,49 @@
+.login{
+    height: inherit;
+    padding: 10rem 2rem;
+    margin: 0 15rem;
+    margin-top: 10%;
+    box-shadow: 0 0 21px #CBCBD0;
+}
+
+.login .gooogleLogin,
+.login .emailLogin{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.login .gooogleLogin{
+    padding-left: 6rem;
+    box-shadow: 0 0 15px #CBCBD0;
+    clip-path: inset(0px -15px 0px 0px);
+}
+
+.login .emailLogin{
+    padding-right: 6rem;
+}
+
+.login .emailLogin h3{
+    margin-bottom: 4rem;
+}
+
+.login .gooogleLogin .ttn-logo{
+    width: 10rem;
+}
+
+.login .gooogleLogin h2{
+    margin-bottom: 2rem;
+    line-height: 3rem;
+    padding-right: 8rem;
+    padding-left: 8rem;
+}
+
+.login .gooogleLogin h5{
+    margin-bottom: 4rem;
+}
+
+
+
+					  
+						
+ 
+

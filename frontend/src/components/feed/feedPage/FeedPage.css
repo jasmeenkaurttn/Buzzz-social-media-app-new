@@ -1,0 +1,41 @@
+.feed-page-wrapper {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  /* background-color: lightgray;
+  overflow-x: hidden;
+  overflow-y: hidden; */
+}
+/* .leftbar .profileCard {
+  background-color: blue;
+} */
+
+.main {
+  display: flex;
+  flex-direction: row;
+  background-color: #f0f2f5;
+}
+
+.leftbar { 
+  width: 33.33%;
+  height: 150vh;
+  margin-left: 40px;
+}
+
+.center{
+  height: 300vh;
+  width: 45%;
+}
+
+.rightbar {
+  position: absolute;
+  right: 2%;
+  top: 150px;
+  
+  width: 21.67%;
+  height: 100vh;
+}
